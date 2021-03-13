@@ -1,0 +1,30 @@
+(Work history)
+I'm currently a Research Assistant at Michigan State University. Most of my research
+has involved question answering models and language understanding.
+
+In the Summer of 2019 I developed a prototype app for Edgewater Safety Systems.
+The app recorded and scheduled messages to play on a web dashboard for elderly
+patients suffering from dementia.
+
+I interned at OSIsoft in 2017. While there, I helped develop and maintain
+an internal company dashboard written in AngularJS and C#.
+
+I'm interested in ML Engineering, Natural Language interfaces, and deploying
+real-world systems.
+
+(Education)
+I have a BS in Computer Science from Grove City College, and I'm in the Masters
+program at Michigan State University.
+
+(Skills)
+I have experience with Python, Javascript, Golang, C#, C++ and Java.
+
+
+(Misc)
+When I'm not coding or reading interesting papers, I like to run, play mandolin,
+cook and throw a frisbee.
+
+(How is this model built?)
+This system is built from the recent, text-generation based UnifiedQA. I deployed
+the smallest version of this model using the huggingface transformers libary and
+deploy the model with a fixed context (my bio).
