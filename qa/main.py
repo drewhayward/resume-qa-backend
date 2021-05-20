@@ -4,7 +4,7 @@ from pydantic import BaseModel
 from fastapi import FastAPI
 from fastapi.middleware.cors import CORSMiddleware
 
-from qa_model import build_pipeline, get_bio
+from qa.qa_model import build_pipeline, get_bio
 
 app = FastAPI()
 

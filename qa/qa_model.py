@@ -21,7 +21,7 @@ def build_pipeline():
 
 
 def get_bio():
-    with open("bio.txt", "r") as fp:
+    with open("qa/bio.txt", "r") as fp:
         bio_txt = fp.read()
 
     return bio_txt

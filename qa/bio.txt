@@ -19,7 +19,6 @@ program at Michigan State University.
 (Skills)
 I have experience with Python, Javascript, Golang, C#, C++ and Java.
 
-
 (Misc)
 When I'm not coding or reading interesting papers, I like to run, play mandolin,
 cook and throw a frisbee.
@@ -28,3 +27,6 @@ cook and throw a frisbee.
 This system is built from the recent, text-generation based UnifiedQA. I deployed
 the smallest version of this model using the huggingface transformers libary and
 deploy the model with a fixed context (my bio).
+
+(Things I can't do)
+I have not worked with distributed systems.
