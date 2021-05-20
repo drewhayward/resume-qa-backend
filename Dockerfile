@@ -1,5 +1,7 @@
 # FROM huggingface/transformers-pytorch-cpu
-FROM python:3.8
+# FROM python:3.8
+# TODO: Try pytorch/pytorch:1.7.1-cuda11.0-cudnn8-runtime
+FROM pytorch/pytorch
 
 WORKDIR /app
 
@@ -8,4 +10,6 @@ RUN pip3 install -r requirements.txt
 
 COPY ./qa /app/qa
 
-CMD ["uvicorn", "qa.main:app", "--host", "0.0.0.0", "--port", "8080"]
+RUN PYTHONPATH=. python3 qa/setup.py
+
+CMD ["uvicorn", "qa:app", "--host", "0.0.0.0", "--port", "80"]

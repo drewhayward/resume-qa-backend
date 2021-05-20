@@ -1,3 +1,6 @@
 fastapi
+
 transformers
 uvicorn
+sentencepiece
+protobuf

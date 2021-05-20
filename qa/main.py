@@ -16,11 +16,13 @@ class QuestionRequest(BaseModel):
     question: str
 
 
-origins = [
-    "http://localhost:3000",
-    "https://drewhayward.dev",
-    "https://drewhayward.github.io",
-]
+# origins = [
+#     "http://localhost:3000",
+#     "https://drewhayward.dev",
+#     "https://drewhayward.github.io",
+# ]
+
+origins = ['*']
 
 app.add_middleware(
     CORSMiddleware,
