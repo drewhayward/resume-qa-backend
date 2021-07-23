@@ -14,7 +14,7 @@ def build_pipeline():
             input_ids, temperature=0.9, num_return_sequences=4, num_beams=10
         )
         output = tokenizer.batch_decode(output, skip_special_tokens=True)
-        print(output)
+        
         return output[0]
 
     return predict
